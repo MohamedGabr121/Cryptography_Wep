@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html >
+<head >
+    <link rel="stylesheet" href="/man.css">
+    <title>Hash</title>
+    <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js" integrity="sha256-/H4YS+7aYb9kJ5OKhFYPUjSJdrtV6AeyJOtTkw6X72o=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/md5.js"></script>
+
+
+</head>
+
+</head>
+<body>
+    <form id="form1" >
+        <div class="cip">
+            <h1>Hash Algorithms</h1>
+            <label for="txtInput">Input Text:</label>
+            <textarea id="txtInput" name="txtInput" cols="40" rows="3"></textarea>
+            <select name="vcg" id="vcg">
+                <option value="sha256">SHA256</option>
+                <option value="MD5">MD5</option>
+                <option value="SHA1">SHA1</option>
+            </select>
+           <div class="btn-container">
+            <button type="button" onclick="HASH()">Encrypt</button>
+            <button type="button" onclick="Clear()">Clear</button>
+           </div>
+            <br />
+            <label for="txtOutput">Output Text:</label>
+            <textarea id="txtOutput" name="txtOutput" cols="50" rows="10" readonly></textarea>
+            <a  id ="hash" href="/index.html">Go to Back First Page Cryptography</a>
+
+        </div>
+        
+    </form>
+    <script src="hash.js"></script>
+
+</body>
+</html>

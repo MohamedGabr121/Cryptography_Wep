@@ -1,0 +1,89 @@
+/* style for the form container */
+.cip {
+  margin: 20px auto; /* set left and right margins to "auto" */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #ccc;
+  background-color: #fff;
+  max-width: 600px;
+}
+
+/* style for the form headings */
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* style for the input fields */
+textarea,
+input[type="text"] {
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* style for the button */
+button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+/* style for the output field */
+textarea[readonly] {
+  background-color: #eee;
+  color: #666;
+  cursor: not-allowed;
+  margin-top: 10px;
+}
+#vcg {
+  width: 100%;
+  text-align: center;
+  height: 25px;
+}
+#hash {
+  background-color: #3e8e41;
+  text-align: center;
+  color: white;
+  flex: none;
+  padding: 8px;
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+
+}

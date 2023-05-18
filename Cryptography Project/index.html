@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html >
+<head >
+    <link rel="stylesheet" href="man.css">
+    <title>Cryptography Algorithms    </title>
+    <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js" integrity="sha256-/H4YS+7aYb9kJ5OKhFYPUjSJdrtV6AeyJOtTkw6X72o=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js" integrity="sha256-/H4YS+7aYb9kJ5OKhFYPUjSJdrtV6AeyJOtTkw6X72o=" crossorigin="anonymous"></script>
+
+
+</head>
+
+</head>
+<body>
+    <form id="form1" >
+        <div class="cip">
+            <h1>Cryptography Algorithms</h1>
+            <label for="txtInput">Input Text:</label>
+            <textarea id="txtInput" name="txtInput" cols="40" rows="3"></textarea>
+            <br />
+            <label for="txtKey">Encryption Key:</label>
+            <input type="text" id="txtKey" name="txtKey" />
+            <br />
+            <select name="vcg" id="vcg">
+                <option value="Vigenere">Vigenere</option>
+                <option value="Playfair">Playfair</option>
+                <option value="Caesar">Caesar</option>
+            </select>
+           <div class="btn-container">
+            <button type="button" onclick="encrypt()">Encrypt</button>
+            <button type="button" onclick="Decrypt()">Decrypt</button>
+            <button type="button" onclick="Clear()">Clear</button>
+           </div>
+            <br />
+            <label for="txtOutput">Encrypted Text:</label>
+            <textarea id="txtOutput" name="txtOutput" cols="50" rows="10" readonly></textarea>
+            <a  id ="hash" href="seconde/secondPage.html">Go to Second Page Hash </a>
+
+        </div>
+        
+    </form>
+
+<script src="main.js"></script>
+</body>
+</html>
